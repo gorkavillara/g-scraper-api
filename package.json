@@ -1,0 +1,33 @@
+{
+  "name": "g-scraper",
+  "version": "1.0.0",
+  "description": "GorkaVillar Consulting - Aplicación para hacer Scrape de negocios en Google",
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "create-react-app": "^3.0.1",
+    "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "google-spreadsheet": "^2.0.7",
+    "handlebars": "^4.0.12",
+    "mongoose": "^5.3.14",
+    "morgan": "^1.9.1",
+    "nodemailer": "^4.7.0",
+    "puppeteer": "^1.11.0",
+    "socket.io": "^2.2.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
